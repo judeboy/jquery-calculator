@@ -7,7 +7,7 @@ let calScreen = $('#screen')
   $('span').click(function(event) {
     var target = event.target.innerText
     calScreen.append(target)
-    // screenArray.push(target)
+  
 
     if (target === 'C') {
       $('#clear').click(function() {
